@@ -137,19 +137,19 @@ public class Game : MonoBehaviour
     }
     public void voidForDis1()
     {
-        fileName = dis1.text.Substring(3).Replace(" ", "_").Replace(playerName,"Jindřich") + ".txt";
+        fileName = dis1.text.Substring(3).Replace(" ", "_").Replace(playerName.Replace(' ', '_'),"Jindřich") + ".txt";
         newFile();
         UpdateLabels();
     }
     public void voidForDis2()
     {
-        fileName = dis2.text.Substring(3).Replace(" ", "_").Replace(playerName,"Jindřich") + ".txt";
+        fileName = dis2.text.Substring(3).Replace(" ", "_").Replace(playerName.Replace(' ', '_'),"Jindřich") + ".txt";
         newFile();
         UpdateLabels();
     }
     public void voidForDis3()
     {
-        fileName = dis3.text.Substring(3).Replace(" ", "_").Replace(playerName,"Jindřich") + ".txt";
+        fileName = dis3.text.Substring(3).Replace(" ", "_").Replace(playerName.Replace(' ', '_'),"Jindřich") + ".txt";
         newFile();
         UpdateLabels();
     }
